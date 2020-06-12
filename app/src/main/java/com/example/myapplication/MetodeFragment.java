@@ -60,6 +60,6 @@ public class MetodeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_metode, container, false);
-        return  view;
+        return view;
     }
 }

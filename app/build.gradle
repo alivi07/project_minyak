@@ -34,5 +34,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'cyd.awesome.android:awesome-material:1.0'
     implementation 'com.android.support:design:29.2.0'
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'
+    implementation 'com.android.support:appcompat-v7:29.2.0'
 
 }

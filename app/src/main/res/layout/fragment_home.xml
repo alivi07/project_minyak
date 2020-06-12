@@ -39,51 +39,187 @@
             android:padding="5dp"
             android:text="Metode Net Cash Flow"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20dp" />
 
-        <Button
-            android:id="@+id/metodesatu"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/tombol"
-            android:padding="5dp"
-            android:text="1. Metode garis lurus" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/metodedua"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/tombol"
-            android:padding="5dp"
-            android:text="2. Metode Declining Balance" />
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="1"
+                android:textColor="#ffffff" />
 
-        <Button
-            android:id="@+id/metodetiga"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/tombol"
-            android:padding="5dp"
-            android:text="3. Metode Double Declining Balance" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Metode garis lurus"
+                android:textColor="#000000" />
 
-        <Button
-            android:id="@+id/metodeempat"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/tombol"
-            android:padding="5dp"
-            android:text="4. Unit of Production Methode" />
+            <Button
+                android:id="@+id/metodesatu"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="pilih"
+                android:textColor="#ffffff" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/metodelima"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/tombol"
-            android:padding="5dp"
-            android:text="5. Sum-of the year methode" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="2"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Metode Declining Balance"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/metodedua"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="pilih"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="3"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Metode Double Declining Balance"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/metodetiga"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="pilih"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="4"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Unit of Production Methode"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/metodeempat"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="pilih"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="5"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Sum-of the year methode"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/metodelima"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/tombol"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="pilih"
+                android:textColor="#ffffff" />
+        </LinearLayout>
     </LinearLayout>
 </FrameLayout>

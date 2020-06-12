@@ -49,7 +49,8 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/tombol"
                 android:padding="5dp"
-                android:text="Input" />
+                android:text="Input"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
     </LinearLayout>
@@ -186,7 +187,8 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/tombol"
-                android:text="Hitung" />
+                android:text="Hitung"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
     </LinearLayout>
