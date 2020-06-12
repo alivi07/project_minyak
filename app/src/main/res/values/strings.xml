@@ -6,4 +6,5 @@
     <string name="home">Home</string>
     <string name="metode">Metode</string>
     <string name="favorite">Favorite</string>
+    <string name="logout">Logout</string>
 </resources>
